@@ -42,13 +42,14 @@ const HeroContent = () => {
         </motion.div>
 
         <motion.p
-          variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
-        >
-          I'm an AI Engineer with expertise in Machine Learning, Deep Learning,
-          and NLP, combined with Fullstack Web & Mobile development. I build
-          intelligent, scalable digital experiences. Check out my work below.
-        </motion.p>
+  variants={slideInFromLeft(0.8)}
+  className="text-lg text-gray-400 my-5 max-w-[600px]"
+>
+  I'm an AI Engineer with expertise in Machine Learning, Deep Learning,
+  and NLP, combined with Fullstack Web & Mobile development. I build
+  intelligent, scalable digital experiences. Check out my work below.
+</motion.p>
+
 
         <motion.a
           variants={slideInFromLeft(1)}
